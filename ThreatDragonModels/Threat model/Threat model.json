@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Threat model",
+    "owner": "Gruppe10",
+    "description": "The application will control an automotive ring with the following properties.\n\nThe users will be able to register and reserve cars via a web application. Through the same web application they should be able to delete reservations and submit claims and update payment and contact information.\n\nThe cars themselves also contain sensors that detect the number of kilometers driven.\n\nData from both web and vehicles are stored in a database.\n\nAn external analysis engine will go through the data from the database and produce reports and will be published back to the file system on the web server."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Teacher?"
+  }
+}
